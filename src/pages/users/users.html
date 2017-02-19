@@ -6,10 +6,11 @@
 
 </ion-header>
 <ion-content padding>
-  <button ion-button>Hi ini rama</button>
+<!--Ini harus didaftarkan di users ts methodnya-->
+  <button ion-button (click)="onLoadUser('Rama')" >rama Detil</button>
   <hr>
-  <button ion-button padding>Hi ini siken</button>
+  <button ion-button (click)="onLoadUser('Siken')">Hi ini siken</button>
 </ion-content>
-<ion-footer>
+<ion-footer padding>
   <p>Ok ini Footer</p>
 </ion-footer>
